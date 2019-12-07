@@ -11,11 +11,6 @@ class Node:
         self.yes_answer = yes_answer
         self.no_answer = no_answer
 
-
-# Read in Dataset
-df = pd.read_csv("beers.csv")
-
-
 # Function to split data into specified test size / training size
 # using .values converts data from a pandas df to a numpy array which speeds up runtime
 def train_test_split(df, test_size):
@@ -138,7 +133,7 @@ def find_best_split(data, potential_splits):
     return best_split, best_value
 
 
-def build_tree(data):
+def build_tree(data, df):
     # base case, if data already only consists of one label
     if isPure(data):
         classification = classify(data)
@@ -152,12 +147,12 @@ def build_tree(data):
         below, above = perform_split(data, split, split_value)
 
         # declare root node that holds the question and children nodes (yes or no answers)
-        question = "{} <= {}".format(train_df.columns[split], split_value)
+        question = "{} <= {}".format(df.columns[split], split_value)
         root = Node(question=question, yes_answer=None, no_answer=None)
 
         # recursively build tree by deciding new splits and appending nodes to root
-        yes = build_tree(below)
-        no = build_tree(above)
+        yes = build_tree(below, df)
+        no = build_tree(above, df)
 
         # if splitting the tree results in the same classification, then there is no need to split
         # just pick one. Otherwise continue with assigning split
@@ -199,23 +194,3 @@ def determine_accuracy(data_df, tree):
     accuracy = round(data_df.correct.mean() * 100)
 
     return "Accuracy of Classification: " + str(accuracy)
-
-
-# Perform splitting
-train_df, test_df = train_test_split(df, 0.30)
-
-# turn data into type npArray for easier use in functions
-train_data = train_df.values
-test_data = test_df.values
-
-# build tree on training data
-tree = build_tree(train_data)
-
-# Run classification on all testing data and return accuracy
-num_beers = len(test_df.index)
-
-print("Number of Beers to Classify: " + str(num_beers))
-print(determine_accuracy(test_df, tree))
-
-
-

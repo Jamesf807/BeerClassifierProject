@@ -1,6 +1,5 @@
 abv,ibu,label
 6.1,60.0,American Pale Ale (APA)
-9.9,92.0,American Barleywine
 7.9,45.0,Winter Warmer
 4.4,42.0,American Pale Ale (APA)
 4.9,17.0,Fruit / Vegetable Beer
@@ -9,7 +8,7 @@ abv,ibu,label
 7.0,70.0,American IPA
 7.0,70.0,American IPA
 7.0,70.0,American IPA
-8.5,52.0,English Strong Ale
+8.5,52.0,English IPA
 9.7,94.0,American Double / Imperial IPA
 4.4,42.0,American Pale Ale (APA)
 7.9,45.0,Winter Warmer
@@ -23,7 +22,7 @@ abv,ibu,label
 5.0,28.0,American Pale Wheat Ale
 5.0,45.0,American IPA
 6.9,65.0,American IPA
-9.0,50.0,English Strong Ale
+9.0,50.0,English IPA
 4.6,15.0,Kölsch
 5.2,18.0,Belgian Dark Ale
 5.9,75.0,American IPA
@@ -38,7 +37,6 @@ abv,ibu,label
 8.2,68.0,American IPA
 5.0,20.0,American Brown Ale
 8.0,68.0,American Double / Imperial IPA
-12.5,80.0,English Barleywine
 7.7,25.0,Milk / Sweet Stout
 4.2,42.0,American Pale Ale (APA)
 5.0,25.0,German Pilsener
@@ -120,11 +118,10 @@ abv,ibu,label
 6.8,62.0,American Pale Lager
 5.0,20.0,Witbier
 5.1,45.0,Euro Dark Lager
-5.4,55.0,California Common / Steam Beer
+5.4,55.0,American Amber / Red Lager
 6.7,70.0,American IPA
 5.0,28.0,Schwarzbier
 5.4,48.0,German Pilsener
-7.0,42.0,Hefeweizen
 5.5,35.0,American Amber / Red Ale
 4.9,28.0,American Pale Ale (APA)
 6.9,69.0,American IPA
@@ -132,7 +129,6 @@ abv,ibu,label
 5.0,10.0,Fruit / Vegetable Beer
 5.8,45.0,American Pale Ale (APA)
 6.8,85.0,American IPA
-4.8,16.0,Other
 4.4,44.0,English India Pale Ale (IPA)
 5.7,27.0,American Blonde Ale
 7.2,87.0,American IPA
@@ -153,7 +149,7 @@ abv,ibu,label
 5.0,40.0,English Pale Ale
 5.0,35.0,American Pale Wheat Ale
 5.1,26.0,American Brown Ale
-7.2,60.0,English Strong Ale
+7.2,60.0,English IPA
 5.1,26.0,American Brown Ale
 5.0,35.0,American Pale Wheat Ale
 6.2,65.0,American IPA
@@ -189,7 +185,6 @@ abv,ibu,label
 8.0,80.0,American Double / Imperial IPA
 5.9,60.0,American Pale Ale (APA)
 6.5,30.0,Extra Special / Strong Bitter (ESB)
-5.3,22.0,Euro Pale Lager
 5.9,60.0,American Pale Ale (APA)
 4.9,16.0,Kölsch
 6.0,40.0,American White IPA
@@ -207,7 +202,6 @@ abv,ibu,label
 5.3,45.0,American Pale Ale (APA)
 6.6,72.0,American IPA
 7.1,16.0,American Porter
-4.5,8.0,Radler
 6.5,45.0,American IPA
 4.9,30.0,Vienna Lager
 4.9,30.0,Vienna Lager
@@ -289,7 +283,6 @@ abv,ibu,label
 7.8,16.0,Scottish Ale
 8.5,90.0,American Double / Imperial IPA
 6.8,70.0,American IPA
-5.1,35.0,Smoked Beer
 5.1,36.0,American Pale Ale (APA)
 5.0,18.0,Cream Ale
 5.0,40.0,Altbier
@@ -342,7 +335,7 @@ abv,ibu,label
 7.5,29.0,Oatmeal Stout
 7.7,71.0,American Black Ale
 6.0,46.0,American Pale Ale (APA)
-7.5,25.0,Belgian Strong Pale Ale
+7.5,25.0,Tripel
 5.2,15.0,Witbier
 5.2,25.0,American Amber / Red Ale
 6.5,65.0,American IPA
@@ -360,18 +353,18 @@ abv,ibu,label
 5.2,23.0,American Blonde Ale
 7.0,70.0,American IPA
 4.5,44.0,American IPA
-5.0,16.0,English Pale Mild Ale
+5.0,16.0,English Pale Ale
 5.9,55.0,Irish Dry Stout
 5.6,46.0,American Blonde Ale
 6.5,71.0,American IPA
 5.8,46.0,Irish Red Ale
 5.0,40.0,American Pale Ale (APA)
 5.2,16.0,Hefeweizen
-4.9,22.0,Abbey Single Ale
+4.9,22.0,Belgian Pale Ale
 6.3,76.0,American IPA
 5.0,12.0,Gose
 9.6,85.0,American Double / Imperial IPA
-4.9,22.0,Abbey Single Ale
+4.9,22.0,Belgian Pale Ale
 4.4,45.0,American Pale Ale (APA)
 5.2,26.0,American Pale Ale (APA)
 5.4,27.0,American Amber / Red Ale
@@ -399,7 +392,7 @@ abv,ibu,label
 7.0,80.0,American IPA
 7.0,58.0,American Stout
 5.0,20.0,Belgian Pale Ale
-5.0,20.0,Roggenbier
+5.0,20.0,Rye Beer
 5.0,20.0,Kölsch
 7.0,70.0,American IPA
 7.5,53.0,American Amber / Red Ale
@@ -506,10 +499,9 @@ abv,ibu,label
 6.0,25.0,American Dark Wheat Ale
 5.1,13.0,Witbier
 7.5,65.0,American Stout
-8.0,66.0,English Stout
 5.6,33.0,American Porter
 5.7,23.0,Euro Dark Lager
-4.2,26.0,English Dark Mild Ale
+4.2,26.0,English Brown Ale
 6.2,60.0,American IPA
 5.3,22.0,American Blonde Ale
 9.5,75.0,Russian Imperial Stout
@@ -595,7 +587,6 @@ abv,ibu,label
 4.9,20.0,American Blonde Ale
 5.1,40.0,Altbier
 6.0,50.0,American Pale Ale (APA)
-2.7,21.0,Radler
 3.9,20.0,American Pale Wheat Ale
 3.9,20.0,American Pale Wheat Ale
 3.9,20.0,American Pale Wheat Ale
@@ -643,7 +634,6 @@ abv,ibu,label
 5.0,50.0,American Pale Ale (APA)
 9.3,90.0,American Double / Imperial IPA
 5.2,15.0,American Adjunct Lager
-7.5,24.0,Doppelbock
 5.2,16.0,Hefeweizen
 5.8,25.0,Munich Dunkel Lager
 5.5,40.0,American Pale Ale (APA)
@@ -675,7 +665,7 @@ abv,ibu,label
 4.0,9.0,American Dark Wheat Ale
 5.4,15.0,Hefeweizen
 7.2,100.0,American IPA
-6.6,30.0,Maibock / Helles Bock
+6.6,30.0,Bock
 4.8,28.0,Kölsch
 5.0,12.0,Cream Ale
 4.8,9.0,American Pilsner
@@ -702,7 +692,7 @@ abv,ibu,label
 6.2,65.0,American IPA
 5.6,55.0,Czech Pilsener
 5.2,29.0,American Stout
-3.8,18.0,English Dark Mild Ale
+3.8,18.0,English Brown Ale
 5.1,31.0,Belgian Pale Ale
 5.3,20.0,American Pilsner
 5.1,32.0,American Amber / Red Ale
@@ -760,7 +750,7 @@ abv,ibu,label
 5.7,70.0,American IPA
 8.0,100.0,American Double / Imperial IPA
 7.5,85.0,American IPA
-6.0,24.0,Wheat Ale
+6.0,24.0,American Pale Wheat Ale
 8.0,100.0,American Double / Imperial IPA
 6.3,30.0,Cream Ale
 5.8,28.0,Kölsch
@@ -826,7 +816,7 @@ abv,ibu,label
 3.4,6.0,Berliner Weissbier
 8.8,85.0,American Double / Imperial IPA
 8.8,85.0,American Double / Imperial IPA
-5.6,20.0,Dunkelweizen
+5.6,20.0,Hefeweizen
 5.6,30.0,American Blonde Ale
 5.2,50.0,American Amber / Red Ale
 4.2,35.0,Cream Ale
@@ -849,7 +839,6 @@ abv,ibu,label
 4.9,27.0,English Bitter
 4.8,35.0,Keller Bier / Zwickel Bier
 4.8,35.0,American Pale Ale (APA)
-9.2,72.0,Belgian Strong Dark Ale
 8.7,29.0,Scotch Ale / Wee Heavy
 5.4,36.0,American Porter
 9.5,19.0,Scottish Ale
@@ -922,11 +911,9 @@ abv,ibu,label
 5.0,35.0,American IPA
 4.1,12.0,American Pale Lager
 5.9,25.0,American Amber / Red Ale
-6.9,20.0,Dubbel
 6.7,74.0,American IPA
 6.1,60.0,American IPA
 7.0,75.0,American IPA
-6.0,20.0,Chile Beer
 6.0,24.0,Fruit / Vegetable Beer
 4.5,18.0,American Blonde Ale
 5.5,25.0,American Porter
@@ -1076,7 +1063,7 @@ abv,ibu,label
 7.1,92.0,American IPA
 6.0,70.0,American IPA
 5.5,16.0,Winter Warmer
-5.6,25.0,Grisette
+5.6,25.0,Saison / Farmhouse Ale
 4.9,18.0,Munich Helles Lager
 5.5,16.0,Winter Warmer
 8.4,90.0,American Double / Imperial IPA
@@ -1097,7 +1084,6 @@ abv,ibu,label
 6.8,60.0,American IPA
 6.3,100.0,American IPA
 6.3,100.0,American IPA
-9.9,100.0,American Barleywine
 5.2,32.0,American Pale Ale (APA)
 4.6,12.0,American Pale Wheat Ale
 8.4,90.0,American Strong Ale
@@ -1117,14 +1103,12 @@ abv,ibu,label
 5.0,20.0,American Blonde Ale
 5.8,60.0,American Pale Ale (APA)
 6.5,45.0,American Pale Ale (APA)
-6.9,23.0,Bière de Garde
 8.5,110.0,American Double / Imperial IPA
 9.2,100.0,American Double / Imperial IPA
 8.5,110.0,American Double / Imperial IPA
-7.2,40.0,Old Ale
+7.2,40.0,Winter Warmer
 5.0,20.0,American Blonde Ale
 9.9,100.0,American Double / Imperial IPA
-6.9,23.0,Bière de Garde
 8.3,50.0,Foreign / Export Stout
 6.5,45.0,American Pale Ale (APA)
 5.0,20.0,American Blonde Ale
@@ -1186,11 +1170,8 @@ abv,ibu,label
 7.5,77.0,American IPA
 5.6,50.0,American Pale Ale (APA)
 9.9,75.0,Russian Imperial Stout
-6.3,23.0,Flanders Oud Bruin
 7.1,27.0,Irish Dry Stout
 5.4,23.0,Scottish Ale
-9.9,60.0,English Barleywine
-9.0,24.0,Quadrupel (Quad)
 5.5,23.0,Märzen / Oktoberfest
 5.2,24.0,Dortmunder / Export Lager
 5.2,24.0,Dortmunder / Export Lager
@@ -1198,7 +1179,6 @@ abv,ibu,label
 9.0,30.0,Scotch Ale / Wee Heavy
 7.5,77.0,American IPA
 5.5,23.0,Märzen / Oktoberfest
-9.9,60.0,English Barleywine
 5.4,23.0,Scottish Ale
 5.3,20.0,Cream Ale
 5.6,50.0,American Pale Ale (APA)
@@ -1244,11 +1224,10 @@ abv,ibu,label
 6.3,60.0,American IPA
 7.0,80.0,American IPA
 6.5,35.0,American Porter
-8.0,22.0,Dubbel
 4.7,42.0,American Pale Ale (APA)
 5.5,35.0,Saison / Farmhouse Ale
 6.3,23.0,American Brown Ale
-5.6,12.0,Dunkelweizen
+5.6,12.0,Hefeweizen
 7.1,69.0,English India Pale Ale (IPA)
 8.0,120.0,American Double / Imperial IPA
 8.0,120.0,American Double / Imperial IPA
@@ -1273,7 +1252,7 @@ abv,ibu,label
 5.5,64.0,American Pale Wheat Ale
 5.5,31.0,Oatmeal Stout
 5.4,37.0,American Pale Ale (APA)
-5.3,27.0,California Common / Steam Beer
+5.3,27.0,American Amber / Red Lager
 5.8,20.0,American Porter
 5.2,12.0,Fruit / Vegetable Beer
 12.0,90.0,Russian Imperial Stout
@@ -1294,7 +1273,6 @@ abv,ibu,label
 6.0,30.0,American Amber / Red Ale
 7.5,93.0,American Amber / Red Ale
 4.5,45.0,American Pilsner
-8.2,25.0,Doppelbock
 7.5,85.0,American IPA
 5.5,52.0,American Pale Ale (APA)
 6.2,65.0,American IPA
@@ -1328,15 +1306,13 @@ abv,ibu,label
 4.0,34.0,American Pale Ale (APA)
 4.0,29.0,American Pale Ale (APA)
 6.0,75.0,American IPA
-4.7,25.0,Maibock / Helles Bock
+4.7,25.0,Bock
 8.5,90.0,American Double / Imperial IPA
 4.2,10.0,Gose
 4.5,50.0,American IPA
 4.5,15.0,Witbier
-6.8,24.0,American Wild Ale
 9.9,51.0,American Double / Imperial Stout
 6.5,33.0,American White IPA
-7.5,30.0,American Wild Ale
 9.9,90.0,American Double / Imperial IPA
 7.5,30.0,Belgian Pale Ale
 4.8,15.0,Vienna Lager
@@ -1348,9 +1324,9 @@ abv,ibu,label
 9.2,25.0,Tripel
 7.9,23.0,Witbier
 7.5,31.0,American Brown Ale
-9.2,25.0,Belgian Strong Pale Ale
+9.2,25.0,Tripel
 7.3,85.0,American IPA
-7.5,85.0,American Double / Imperial Pilsner
+7.5,85.0,American IPA
 4.0,37.0,American IPA
 6.0,55.0,American IPA
 5.6,50.0,American IPA
@@ -1368,8 +1344,6 @@ abv,ibu,label
 5.7,22.0,Märzen / Oktoberfest
 5.8,55.0,American IPA
 7.5,89.0,American IPA
-4.9,28.0,Chile Beer
-4.9,30.0,Radler
 4.9,30.0,Hefeweizen
 4.9,30.0,Hefeweizen
 8.2,100.0,American Double / Imperial IPA
