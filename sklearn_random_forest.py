@@ -7,7 +7,7 @@ input_file = 'beers.csv'
 
 data = pd.read_csv(input_file)
 
-occurences = data['label'].value_counts()[:20]
+occurences = data['label'].value_counts()[:5]
 occurences = occurences.index.tolist()
 df2 = data[data.label.isin(occurences)]
 
