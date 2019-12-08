@@ -193,4 +193,4 @@ def determine_accuracy(data_df, tree):
 
     accuracy = round(data_df.correct.mean() * 100)
 
-    return "Accuracy of Classification: " + str(accuracy)
+    return accuracy
