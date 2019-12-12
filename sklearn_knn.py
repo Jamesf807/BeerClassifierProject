@@ -7,15 +7,14 @@ input_file = 'beers.csv'
 
 data = pd.read_csv(input_file)
 
-occurences = data['label'].value_counts()[:10]
+occurences = data['label'].value_counts()[:5]
 occurences = occurences.index.tolist()
 df2 = data[data.label.isin(occurences)]
 
-df_x = df2[['abv', 'ibu']]
-df_y = df2['label']
+df_x = data[['abv', 'ibu']]
+df_y = data['label']
 
-X_train, X_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.25, )
-
+X_train, X_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.30, )
 KNN = KNeighborsClassifier()
 KNN.fit(X_train, y_train)
 

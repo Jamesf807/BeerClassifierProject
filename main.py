@@ -61,7 +61,7 @@ tree4 = build_tree(train_data4, train_df4)
 
 print("\n-------ORIGINAL DATA SET-------\n")
 
-print("TEST SIZE: 1377")
+print("TOTAL SIZE: 1377")
 print("TRAIN/TEST SIZE = 80/20")
 print("Size of Training Set: " + str(len(train_df.index)))
 print("Number of Beers to Classify: " + str(len(test_df.index)))
@@ -70,7 +70,7 @@ print("Accuracy of Classification: " + str(acc1))
 
 print("---------------------------------------------")
 
-print("TEST SIZE: 1377")
+print("TOTAL SIZE: 1377")
 print("TRAIN/TEST SIZE = 70/30")
 print("Size of Training Set: " + str(len(train_df2.index)))
 print("Number of Beers to Classify: " + str(len(test_df2.index)))
@@ -81,7 +81,7 @@ print("---------------------------------------------")
 
 print("\n -------TOP 5 MOST FREQUENT LABELS-------\n")
 
-print("TEST SIZE: 669")
+print("TOTAL SIZE: 669")
 print("TRAIN/TEST SIZE = 80/20")
 print("Size of Training Set: " + str(len(train_df3.index)))
 print("Number of Beers to Classify: " + str(len(test_df3.index)))
@@ -90,7 +90,7 @@ print("Accuracy of Classification: " + str(acc3))
 
 print("---------------------------------------------")
 
-print("TEST SIZE: 669")
+print("TOTAL SIZE: 669")
 print("TRAIN/TEST SIZE = 70/30")
 print("Size of Training Set: " + str(len(train_df4.index)))
 print("Number of Beers to Classify: " + str(len(test_df4.index)))
@@ -107,7 +107,7 @@ test_data5 = train_df5.values
 
 tree5 = build_tree(train_data5, train_df5)
 
-print("TEST SIZE: " + str(len(notBadData.index)))
+print("TOTAL SiZE: " + str(len(notBadData.index)))
 print("TRAIN/TEST SIZE = 75/25")
 print("Size of Training Set: " + str(len(train_df5.index)))
 print("Number of Beers to Classify: " + str(len(test_df5.index)))
