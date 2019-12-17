@@ -10,7 +10,7 @@ beers.csv - main dataset for beer classification
 demoBeers.csv - set of test beers not in dataset that were used during demo
 
 
-buildTree.py - Main functions for building decision tree and perform classifications
+buildTree.py - Functions and algorithm for building decision tree and perform classifications
 
 main.py - main function calls and print statements to visualize results of classification
 
