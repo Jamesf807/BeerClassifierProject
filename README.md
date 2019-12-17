@@ -9,6 +9,8 @@ beers.csv - main dataset for beer classification
 
 demoBeers.csv - set of test beers not in dataset that were used during demo
 
+iris.csv - popular dataset used to test decision trees. Used to make sure our algorithm performed well
+
 
 buildTree.py - Functions and algorithm for building decision tree and perform classifications
 
